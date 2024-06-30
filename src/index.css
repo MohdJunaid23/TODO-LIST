@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+
+html,body {
+ height:100%; 
+ width:100%; 
+ background-color: black;
+ display: flex;
+ flex-direction: column;
+ align-items:center;
+ justify-content:start;
+ padding: 2rem 1rem;
+ font-family: "Gilroy";
+}
+#addTasks{
+  transition: all ease .5s;
+  border-style: none;
+  outline: none;
+}
+#addTasks:hover{
+  transform: rotate(180deg);
+  scale:1.2;
+}
+
+#inputTaskField{
+  background-color: rgb(20, 20, 20);
+  color: white;
+}
